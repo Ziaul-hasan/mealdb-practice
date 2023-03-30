@@ -1,0 +1,14 @@
+.menu-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.food-container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.order-container{
+    background-color: khaki;
+    padding: 20px;
+}
